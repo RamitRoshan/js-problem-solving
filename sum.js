@@ -1,0 +1,26 @@
+// const number = "12345";
+
+//sum of 12345 is 15
+
+// let result = 0;
+// for(let i=0; i<number.length; i++){
+//     let b = Number(number[i]);
+//     result = result +b;
+// }
+// console.log(result);
+
+
+
+
+let num = 12345;
+let sum = 0; 
+
+while(num > 0){
+    let digit = num % 10;
+    sum = sum + digit;
+
+    num = Math.floor(num/10);
+     
+}
+console.log(sum);
+
