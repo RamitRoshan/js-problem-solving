@@ -33,3 +33,9 @@ function greet(username){
 console.log(greet(' Mahadev')); //directly printing the rreturned value
 const r1 = greet(' to Hindu-Rastra'); //assiging the return value to a variable
 console.log(r1);
+
+function grret(username){
+    const msg = "Mul*e" + username;
+    return msg;
+}
+console.log(grret(" ki ch**"));

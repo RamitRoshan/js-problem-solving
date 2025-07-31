@@ -9,11 +9,17 @@
 */
 
 
-const a = Number(prompt("Enter first number: "));
-const b = Number(prompt("Enter second number: "));
+// const a = Number(prompt("Enter first number: "));
+// const b = Number(prompt("Enter second number: "));
 
-function add(a,b){
-    const sum = a +b;
+// function add(a,b){
+//     const sum = a +b;
+//     return sum;
+// }
+// console.log(add(a,b));
+
+function add(a, b){
+    const sum = a+b;
     return sum;
 }
-console.log(add(a,b));
+console.log(add(3,4));

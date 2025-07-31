@@ -1,5 +1,5 @@
 const str = "abca";
-const char = "a";
+const char = "a"; //2
 let count = 0;
 for(let i=0; i<str.length; i++){
     if(str[i] == char){
@@ -12,9 +12,7 @@ console.log(count);
 //declaring a function
 const str1 = "abca";
 const charFind = "b";
-function functionName(){
 
-}
 function functionName(str, char) {
     let count = 0;
     for(let i = 0; i < str.length; i++) {
