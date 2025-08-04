@@ -18,8 +18,17 @@
 // }
 // console.log(add(a,b));
 
+
 function add(a, b){
     const sum = a+b;
     return sum;
 }
 console.log(add(3,4));
+
+//convert to arrrow function
+
+const arrowF = (a, b) => {
+    const sum = a+b;
+    return sum;
+}
+console.log(arrowF(5,3));
