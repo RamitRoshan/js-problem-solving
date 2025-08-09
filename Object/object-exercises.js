@@ -272,8 +272,9 @@ o/p:
 */
 
 
+
 /*
-Ques) str = "ddcttd"
+Ques 12). str = "ddcttd"
              012345 (indexes)
 
 o/p: {d:[0,1,5], c=[2], t= [3,4]}

@@ -1,8 +1,7 @@
-//const array = [10, 11, 12, 13, 14];
-
- 
 
 // ## arrow functions 
+
+//const array = [10, 11, 12, 13, 14];
 
 // const getEvens = (arr) =>{
 //     const result = arr.filter(ele => ele % 2 == 0);
@@ -16,6 +15,7 @@
 //     return result;
 // }
 // console.log(getEvens(array));  //[10, 12, 14]
+
 
 
 

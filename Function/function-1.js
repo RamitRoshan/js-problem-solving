@@ -20,6 +20,7 @@ const add = function(a,b){
 console.log(add(10,20));
 
 
+
 //##  Reusability (using function expression)
 const isEven = function(ele){
     return ele% 2  == 0;
@@ -30,3 +31,6 @@ console.log(isEven(11));
 const arr = [10, 11, 12, 13, 14, 15];
 const result = arr.filter(isEven);
 console.log(result);
+
+
+//Note: - only function expression can convert to arroow functiions not function declarations..

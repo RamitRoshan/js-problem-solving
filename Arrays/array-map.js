@@ -47,16 +47,31 @@ ReactJS is filled with Map() methods, it is very useful
 // console.log(result);   //['d', 's', 'z']
 
 
+
+
 //Ques).Find the first and last character of each name using .map()
 
-const names = ['dravid', 'sachin', 'zaheer'];
+// const names = ['dravid', 'sachin', 'zaheer'];
 
-const result = names.map(function(ele){
-    return ele.charAt(0) + ele.charAt(ele.length-1);
+// const result = names.map(function(ele){
+//     return ele.charAt(0) + ele.charAt(ele.length-1);
     
-    // also write this
-    // return ele[0] + ele[ele.length - 1];
-});
-console.log(result); //['dd', 'sn', 'zr']
+//     // also we can write like this: 
+//     // return ele[0] + ele[ele.length - 1];
+// });
+// console.log(result); //['dd', 'sn', 'zr']
 
-//Interview.Ques) Given an array , here you have to add 2 to every even number
+
+//Interview.Ques) Given an array of numbers , here you have to add 2 to every even number
+
+const arr = [10, 11, 12, 13, 14];
+const result = arr.map(function(ele){
+    if(ele % 2 === 0){
+        return ele+2;
+    }else{
+        return ele;
+    }
+});
+console.log(result);  //o/p = [12,11,14,13,16]
+
+
