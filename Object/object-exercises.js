@@ -1,4 +1,4 @@
-//Q) find the keys 
+//Q1) find the keys 
 
 //without using Object.keys( )
 // function getKeys(obj){
@@ -19,7 +19,7 @@
 
 
 
-// Ques) find the values 
+// Ques2) find the values 
 
 //without using Object.values(), print the value (not keys)
 // function getValues(obj){
@@ -33,7 +33,7 @@
 
 
 
-// Ques) function check props if present then true else false
+// Ques3) function check props if present then true else false
 
 // without using hasOwnProperty
 // function checkProp(obj, prop){
@@ -95,18 +95,18 @@ t: T
 }
 */
 
-//Q). charAscii
-function charAscii(str){
-    const result = {};
-    for(let char of str){
-        result[char] = char.charCodeAt(0);
-    }
-    return result;
-}
-console.log(charAscii('abc'));  //{a:97, b:98, c:99}
+//Q4). charAscii
+// function charAscii(str){
+//     const result = {};
+//     for(let char of str){
+//         result[char] = char.charCodeAt(0);
+//     }
+//     return result;
+// }
+// console.log(charAscii('abc'));  //{a:97, b:98, c:99}
 
 
-//Q) String length
+//Q5) String length
 // const strLength = (arr) => {
 //     const result = {};
 //     for(let str of arr){
@@ -140,54 +140,175 @@ console.log(charAscii('abc'));  //{a:97, b:98, c:99}
 
 
 
-//Q) Return all products whose price is greater than or equal to 10000
-const products = [
-  { id: 1, name: "Laptop", price: 55000 },
-  { id: 2, name: "Smartphone", price: 25000 },
-  { id: 3, name: "Headphones", price: 2000 },
-  { id: 4, name: "Keyboard", price: 1200 },
-  { id: 5, name: "Mouse", price: 800 }
-];
+//Q6) Return all products whose price is greater than or equal to 10000
+// const products = [
+//   { id: 1, name: "Laptop", price: 55000 },
+//   { id: 2, name: "Smartphone", price: 25000 },
+//   { id: 3, name: "Headphones", price: 2000 },
+//   { id: 4, name: "Keyboard", price: 1200 },
+//   { id: 5, name: "Mouse", price: 800 }
+// ];
 
-function filterProducts(products){
-    const result = products.filter(function(ele){
-        return (ele.price >= 10000);
-    });
-    return result;
-}
-console.log(filterProducts(products));
+// function filterProducts(products){
+//     const result = products.filter(function(ele){
+//         return (ele.price >= 10000);
+//     });
+//     return result;
+// }
+// console.log(filterProducts(products));
 // [{id: 1, name: "Laptop", price: 55000}, {id: 2, name: "Smartphone", price: 25000} ]
 
 
-//Q) find the max in the array
-function findMax(arr){
-    let max = arr[0];
-    for(let i=1; i<arr.length; i++){
-        if(arr[i] > max){
-            max = arr[i];
-        }
-    }
-    return max;
-}
-console.log(findMax([100,50,60,125,1,10])); //125
+//Q7) find the max in the array
+// function findMax(arr){
+//     let max = arr[0];
+//     for(let i=1; i<arr.length; i++){
+//         if(arr[i] > max){
+//             max = arr[i];
+//         }
+//     }
+//     return max;
+// }
+// console.log(findMax([100,50,60,125,1,10])); //125
 
 
-//Ques) Return key with the max value
+//Ques8) Return key with the max value
 // obj = {a:1, b:20, c:3} o/p: 'b'
-// const obj = {a:1, b:20, c:3};
 
-// console.log(Object.keys(obj).length == 0);
+// function getMax(obj){
+//     let maxKey = null;
+//     let maxValue = null;
+//     //used for-in loop
+//     for(let key in obj ){
+//         if(obj[key] > maxValue){
+//             maxValue = obj[key];
+//             maxKey = key;
+//         }
+//     }
+//     return maxKey;
+// }
+// console.log(getMax({a:1, b:20, c:30})); //'b'
 
-function getMax(obj){
-    let maxKey = null;
-    let maxValue = null;
-    //used for-in loop
-    for(let key in obj ){
-        if(obj[key] > maxValue){
-            maxValue = obj[key];
-            maxKey = key;
+
+//Ques9). 
+// function strIndex(str){
+//     const result = {};
+//     for(let i=0; i<str.length; i++){
+//         result[i] = str[i];
+//     }
+//     return result;
+// }
+// console.log(strIndex('dct')); // {0: 'd', 1: 'c', 2: 't'}
+
+
+/*
+ite  i    str[i]      assign (=)        result
+1    0       d       result[0]='d'      {0:'d'}
+2    1       c       result[1]='c'      {1:'c'}
+3    2       t       result[2]='t'      {2: 't'}
+
+*/
+
+//Ques10). find and return a object where you have to check each character is vowel or not 
+
+// function checkVowel(str){
+//     const result = {};
+//     const vowels = 'aeiou';
+//     for(let i=0; i<str.length; i++){
+//         const char = str[i];
+//         result[char] = vowels.includes(char);
+//     }
+//     return result;
+// }
+// console.log(checkVowel('react'));
+
+//o/p: {r:false, e:true, a:true, c:false, t:false}
+
+//2nd methods 
+// function checkVowel(str){
+//     const result = {};
+//     const vowels = "aeiou";
+//     for(let char of str){
+//         if(vowels.includes(char)){
+//             result[char] = true;
+//         }else{
+//             result[char] = false;
+//         }
+//     }
+//     return result;
+// }
+// console.log(checkVowel('react'));
+
+
+
+//Ques11).
+//output: {r: {index:0, isVowel:false}, e:{index:1, isVowel:true}, a:{index:2, isVowel:true}, c:{index:3, isVowel:false}, t:{index:4, isVowel:false}}
+// function checkVowel(str){
+//     const result = {};
+//     const vowels = "aeiou"; 
+    
+//     for(let i=0; i<str.length; i++){
+//         const char = str[i];
+
+//         const output = {};
+//         output.index = i;
+
+//         output.isVowels = vowels.includes(char);
+//         result[char] = output;
+//     }
+//     return result;
+// }
+// console.log(checkVowel('react'));
+
+/*
+o/p:
+{
+  r: { index: 0, isVowels: false },
+  e: { index: 1, isVowels: true },
+  a: { index: 2, isVowels: true },
+  c: { index: 3, isVowels: false },
+  t: { index: 4, isVowels: false }
+} 
+*/
+
+
+/*
+Ques) str = "ddcttd"
+             012345 (indexes)
+
+o/p: {d:[0,1,5], c=[2], t= [3,4]}
+here, you have to find the index of each character
+*/
+
+function checkCharacter(str){
+    const result = {};
+
+    for(let i=0; i<str.length; i++){
+        const char = str[i];
+
+        if(char in result){
+            result[char].push(i); //we can't use push in the object but its o/p is in array so we use push here  
+        }else{
+            result[char] = [i];
         }
+        
     }
-    return maxKey;
+    return result;
 }
-console.log(getMax({a:1, b:20, c:30})); //'b'
+console.log(checkCharacter('ddcttd'));
+
+/*
+ite   i      char      condition           result
+1     0        d       f(else)            {d:[0]}
+2     1        d       true               {d:[0,1]}
+3     2        c       f                  {d:[0,1], c:[2]}
+4     3        t       f                  {d:[0,1], c:[2], t:[3]}
+5     4        t       true               {d:[0,1], c:[2], t:[3,4]}
+6     5        d       true               {d:[0,1,5], c:[2], t:[3,4]}
+
+*/
+
+
+ 
+
+

@@ -20,6 +20,7 @@ This repo is part of my journey to improve my coding skills by solving real-worl
 
 | Problem Title                 | Concept Focus         |
 |------------------------------|------------------------|
+| `Arrays`                     | All concepts of arrays |
 | `sum.js`                     | Digit sum logic        |
 | `filter-evenodd.js`          | Array filtering        |
 | `remove-dublicate.js`        | String manipulation    |
