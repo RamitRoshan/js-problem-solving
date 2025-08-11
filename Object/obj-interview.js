@@ -1,4 +1,4 @@
-//frequency distribution
+//Ques1). frequency distribution
 
 // function frequency(str){
 //     const result = {};
@@ -43,7 +43,7 @@ ite  char      cond           result
 
 
 
-//Ques).  non-repeating character
+//Ques2).  non-repeating character
 // function nonRepeating(str){
 //     const result = {};
 //     for(let char of str){
@@ -66,7 +66,7 @@ ite  char      cond           result
 
 
 
-//Ques). repeating character
+//Ques3). repeating character
 // o/p: ['d', 't']
 // function repeatingChar(str){
 //     const result = {};
@@ -90,7 +90,7 @@ ite  char      cond           result
 
 
 
-//Ques). swap key values
+//Ques4). swap key values
 function swap(obj){
     const result = {};
     //we use for-in loop in objects
@@ -117,7 +117,7 @@ ite  key      obj[key]        newKey        newValue       result
 */
 
 
-//Ques) find the sum of all values
+//Ques5) find the sum of all values
 function total(cart){
     let sum = 0;
     for(let value in cart){

@@ -34,7 +34,7 @@ console.log(dev.firstName);
 // add key: value pair
 
 //if we have to add anything, then create a properties and asign a value,
-//because unlike array we dont have ption like(push,..) to add because object
+//because unlike array we dont have option like(push,..) to add because object
 //is unordered i.e there is no begonning and no end 
 dev.officeAddress = "Btmlayout-bangalore";
 console.log(dev);

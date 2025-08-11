@@ -75,10 +75,6 @@
 // console.log(pair('dct')); //{d: 'D', c: 'C', t:'T'}
 
 /*
-ite   char   result[char]        result
-1      d     result['d']= 'D'    {d: 'D'}
-2      c     result['c']= 'C'    {d: 'D'}
-3      t     result['t']= 'T'    {c: 'C'}
 
 
 🔁 Step-by-step Execution Table:
