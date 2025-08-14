@@ -2,7 +2,7 @@
 
 //Method -> function inside object
 const student = {
-    name: 'john',
+    name: 'Godse',
     course: 'full stack',
     details: function(){
     }

@@ -9,8 +9,8 @@ console.log(Array.isArray(obj)); //false
 obj.c = 3;
 console.log(obj);
 
-//update the value of the key b with 20
-obj.b = 20;
+//update the value of the key b with 25
+obj.b = 25;
 console.log(obj);
 
 //remove the key 'a' from the object

@@ -22,7 +22,7 @@ console.log(Object.keys(obj2).length) //0
 console.log(Object.keys(obj1).length == 0); //false
 console.log(Object.keys(obj2).length == 0); //true
 
-//check iif a property (key) exists in an object
+//check if a property (key) exists in an object
 console.log('a' in obj1); //true
 console.log('z' in obj1); //false
 
