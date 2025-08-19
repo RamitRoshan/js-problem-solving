@@ -1,7 +1,7 @@
 const fruits = ['mango', 'orange'];
-function addFruit(fruits, fruitName){
-    fruits.push(fruitName);
-    return fruits;
+function addFruit(fruit, fruitName){
+    fruit.push(fruitName);
+    return fruit;
 }
 console.log(addFruit(fruits, 'chikko')); //[ 'mango', 'orange', 'chikko' ]
 

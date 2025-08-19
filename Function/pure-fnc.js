@@ -23,10 +23,10 @@
 //How to convert impure function to pure functions
 
 const fruits = ['mango', 'orange'];
-function addFruit(fruits, fruitName){
+function addFruit(fruit, fruitName){
     //const newArr = fruits shallow copy (copy by reference)
     //deep copy of an array
-    const newArr = [...fruits];
+    const newArr = [...fruit];  //spread operator
     newArr.push(fruitName);
     return newArr;
 }
