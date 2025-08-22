@@ -18,17 +18,16 @@ This repo is part of my journey to improve my coding skills by solving real-worl
 
 ## 🧪 Problems Covered (Examples)
 
-| Problem Title                 | Concept Focus         |
+| Problem Title                | Concept Focus          |
 |------------------------------|------------------------|
 | `Arrays`                     | All concepts of arrays |
-| `sum.js`                     | Digit sum logic        |
-| `filter-evenodd.js`          | Array filtering        |
-| `remove-dublicate.js`        | String manipulation    |
-| `str-reverse.js`             | Reverse string         |
-| `us-number.js`               | String formatting      |
-| `hashtag-generator.js`       | Capitalization & join  |
-| `sum-array.js`               | Array traversal        |
-| `array-loop.js`              | Array loops            |
+| `Function`                   | Covered all topic of fn|
+| `Object`                     | All concept of Object  |
+| `String`                     | String concepts        |
+| `copy-reference.js`          | copy by reference      |
+| `pass-value.js`              | pass by value          |
+| `worksheet-Hoistings.js`     | Covered Multiple ques  |
+| `worksheet-Scope.js`         | Covered Multiple ques  |
 > More problems being added regularly!
 
 
