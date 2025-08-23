@@ -1,10 +1,94 @@
 # 🧠 JS Problem Solving
 
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+![Node.js](https://img.shields.io/badge/Node.js-Optional-green?logo=node.js)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![GitHub stars](https://img.shields.io/github/stars/RamitRoshan/js-problem-solving?style=social)
+![GitHub forks](https://img.shields.io/github/forks/RamitRoshan/js-problem-solving?style=social)
+
+ 
+ 
+
+---
+
 Welcome to **js-problem-solving** , a collection of JavaScript solutions for logical, algorithmic, and DSA-style problems.
 
 This repo is part of my journey to improve my coding skills by solving real-world coding challenges using **vanilla JavaScript**.
 
----
+```
+
+## 📂 Project Structure
+
+├── Arrays
+│ ├── arr-reduce.js
+│ ├── arr-reduce.md
+│ ├── array-exercises.js
+│ ├── array-filter.js
+│ ├── array-find.js
+│ ├── array-forEach.js
+│ ├── array-loop.js
+│ ├── array-map.js
+│ ├── array-method.md
+│ ├── array-modern-arrowfn.js
+│ ├── array-password.js
+│ ├── array-reverse.js
+│ ├── arrayPractice.js
+│ ├── filter-evenodd.js
+│ ├── get-evens.js
+│ ├── return-string.js
+│ ├── sum-array.js
+│ └── truthy-values.js
+├── Function
+│ ├── count-char.js
+│ ├── count-vowels.js
+│ ├── function-1.js
+│ ├── function.js
+│ ├── hoisting.js
+│ ├── hoisting1.js
+│ ├── impure-fnc.js
+│ ├── lexical-example.js
+│ ├── pure-fnc.js
+│ ├── scope-1.js
+│ ├── scope.js
+│ ├── sum.js
+│ ├── user-name.js
+│ └── variables-1.js
+├── Object
+│ ├── delete-methods.js
+│ ├── dev.js
+│ ├── obj-interview.js
+│ ├── obj-loop.js
+│ ├── obj-met1.js
+│ ├── obj-methods.js
+│ ├── obj.js
+│ ├── obj2.js
+│ ├── object-exercises.js
+│ ├── object-loop.js
+│ ├── object-methods.js
+│ └── this.js
+├── String
+│ ├── hashtag-generator.js
+│ ├── move-charString.js
+│ ├── print-string-btw97to102.js
+│ ├── remove-dublicate.js
+│ ├── str-caps.js
+│ ├── str-concat.js
+│ ├── str-reverse.js
+│ ├── us-number.js
+│ └── word-hide.js
+├── copy-reference.js
+├── gender-app
+│ └── index.js
+├── json.js
+├── pass-reference.js
+├── pass-value.js
+├── rough.js
+├── sum.js
+├── update.js
+├── worksheet-Hoistings.js
+└── worksheet-Scope.js
+
+```
 
 ## 📌 What You'll Find
 
@@ -21,15 +105,15 @@ This repo is part of my journey to improve my coding skills by solving real-worl
 | Problem Title                | Concept Focus          |
 |------------------------------|------------------------|
 | `Arrays`                     | All concepts of arrays |
-| `Function`                   | Covered all topic of fn|
-| `Object`                     | All concept of Object  |
+| `Function`                   | Covered all topics of fn|
+| `Object`                     | All concepts of Object |
 | `String`                     | String concepts        |
-| `copy-reference.js`          | copy by reference      |
-| `pass-value.js`              | pass by value          |
-| `worksheet-Hoistings.js`     | Covered Multiple ques  |
-| `worksheet-Scope.js`         | Covered Multiple ques  |
-> More problems being added regularly!
+| `copy-reference.js`          | Copy by reference      |
+| `pass-value.js`              | Pass by value          |
+| `worksheet-Hoistings.js`     | Multiple Qs on hoisting|
+| `worksheet-Scope.js`         | Multiple Qs on scope   |
 
+> More problems being added regularly!
 
 ---
 

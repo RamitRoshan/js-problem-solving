@@ -2,5 +2,19 @@
 
 
 
+//we use require here, to indicate that we are going to use axios
+const axios = require('axios')
+const userName = "kate";
+const url = `https://api.genderize.io/?name=${userName}`;
 
-console.log('index file');
+axios.get(url)
+    .then((response) =>{
+        const result  = response.data;
+        console.log(`The gender of ${userName} is ${result.gender}`)
+    })
+    .catch((err) => {
+        console.log(err.message);
+    })
+
+
+ 
