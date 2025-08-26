@@ -1,4 +1,4 @@
-//IQ) create a regisstration page where user will give name, email and in the process of typeing mail it should identify the gender ,automaticcaly
+//IQ) create a registration page where user will give name, email and in the process of typeing mail it should identify the gender ,automaticcaly
 
 
 
@@ -7,12 +7,12 @@ const axios = require('axios')
 const userName = "kate";
 const url = `https://api.genderize.io/?name=${userName}`;
 
-axios.get(url)
-    .then((response) =>{
+axios.get(url) //pending == initialized
+    .then((response) =>{  //fullfiled == success
         const result  = response.data;
         console.log(`The gender of ${userName} is ${result.gender}`)
     })
-    .catch((err) => {
+    .catch((err) => {  //rejected == failure
         console.log(err.message);
     })
 
