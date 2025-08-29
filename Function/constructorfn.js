@@ -1,5 +1,4 @@
-//constructor function / class - pascal casing
-//Player, PlayerDetails
+//constructor function
 
 function Player(pName, pCountry, pRuns){
     //1. Implicitly new empty object is assigned to this
