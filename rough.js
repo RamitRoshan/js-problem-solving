@@ -175,9 +175,22 @@ Q1). Reverse a String in J.S
 // console.log(strongPassword(['secret', 'sec3@123', 'set123']));
 
 
-const arrStr = ['cdc', 'eer', 'fre'];
+// const arrStr = ['cdc', 'eer', 'fre'];
 
-const result = arrStr.reduce(function(acc, cv){
-   return acc + cv.length;
-},0);
-console.log(result);
+// const result = arrStr.reduce(function(acc, cv){
+//    return acc + cv.length;
+// },0);
+// console.log(result);
+
+
+//Closure Function
+function outerFunction(){
+   var outerVariable = "Hello ";
+
+   function innerFunction(name){
+      console.log(outerVariable + name);
+   }
+   return innerFunction;
+}
+var inner = outerFunction();
+inner("john");
