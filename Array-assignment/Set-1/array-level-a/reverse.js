@@ -28,7 +28,11 @@ Step-by-Step Algorithm:
 
 function reverse(arr) {
     // Your code here
-    
+    const result = [];
+    for(let i= arr.length-1; i>=0; i--){
+      result.push(arr[i]);
+    }
+    return result;
 }
   
 module.exports = reverse;
