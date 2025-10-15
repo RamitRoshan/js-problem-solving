@@ -25,6 +25,7 @@ Step-by-Step Algorithm:
 
 function makePair(a, b) {
     // Your code here
+    const result = [];
     
 }
   
