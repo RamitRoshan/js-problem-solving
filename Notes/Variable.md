@@ -89,3 +89,9 @@ So, the recommandation is to use **let and const** based on the use.
 
 Q). When we are in doubt, which one should I choose let or const ? will we change the varibles in the future. <br>
 ans: Here choose **const**. so that when you think of to change the variable then we can go back and **change the keyword from const to let** in the project.
+
+
+Q). When we get a **reference error** ? <br>
+ans: when the variable is not found/present then we get a reference error.
+
+
