@@ -92,6 +92,40 @@ ans: Here choose **const**. so that when you think of to change the variable the
 
 
 Q). When we get a **reference error** ? <br>
-ans: when the variable is not found/present then we get a reference error.
+ans: when the variable is not found/present then we get a reference error..
 
+
+Q). What are variables ? <br>
+ans: Variables are basically containers for us to store data or information within our program. <br>
+we can store  it, and use it on later point of time.
+
+Q). How to convert loosely type language(JavaScript), to strictly type language ? <br>
+ans: To overcome this limitations of JavaScript, we use **TypeScript** in Industry.
+
+
+- **let** allow us to reassign a value to a variable, but **const** doesnot allows to reassign a value to a variables.
+
+- In JS, index always starts with 0.
+
+- () -> round brackets is used for invocations/call.
+
+- To get any particular character we use either:
+<br>  **charAt**  is inbuild methods of JavaScript     
+
+              const str = "javascript";
+              str[2];   //v
+              or 
+              str.charAt(2);  //v
+
+
+
+- Methods is a behaviour.
+  
+- Variable name inside an object is called **Attribute or property**.
+- Property or Attribute is nothing but called as **Informations**.
+  
+- 1st characters always be in ->  0th index
+- Last characters always be in -> n-1 (length-1).
+
+- If we try to access **characters** outside the index. <br> It could be of string or array. It will return **undefined**.
 
