@@ -13,6 +13,11 @@ console.log( "count of a is: ", count);
 
 
 
+const name = "Ramit";
+console.log(name[0]);  //R
+console.log(name.charAt(1));  // a
+console.log(name[name.length-1]);  //t
+console.log(name.toUpperCase());  //RAMIT
 
  
 
