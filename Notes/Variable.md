@@ -129,3 +129,29 @@ ans: To overcome this limitations of JavaScript, we use **TypeScript** in Indust
 
 - If we try to access **characters** outside the index. <br> It could be of string or array. It will return **undefined**.
 
+- In property there is no paranthesis (), but in Methods we use paranthesis ()..
+  
+- **typeof** is a operator &  it tells us what datatypes a variable holds/used to give the datatype of variables.
+  
+             e.g:
+             const count = 0;
+             typeof count;  // o/p: number
+
+
+
+## Undefined
+
+- When we are trying to access a character, outside the index, then it will return **Undefined**
+- When you declare a Variable and you don't give a value to it. <br> like I create a variable and I will not assign any value to it that time, Then it will give **Undefined** 
+               
+               let count;
+               console.log(count); //o/p: undefined
+
+
+
+- In hight level programming language(Java, JavaScript) we don't have access to memory relocation. We do run our program on **RAM**. <br>
+In low level programming language(c++), we have access to that particular memory relocation. 
+
+<br>
+
+![alt text](image-1.png)
