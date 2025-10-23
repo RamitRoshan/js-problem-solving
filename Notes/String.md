@@ -9,7 +9,7 @@ Strings are nothing, but arrays of character.
                      0123456789 
 
 
-## camel casing convention
+## Camel casing convention
 eg: **userDetails** <br>
 we use camel casing convention in c influenced language - C, C++, Java, JavaScript.
 
@@ -101,3 +101,75 @@ If the value of age is < 18, set the value of text to "Minor", otherwise to "Adu
         } else {
            text = "Adult";
         }
+
+# Primitive and non-primitive data types in JavaScript:
+## 🧩 Primitive Data Types
+
+- String
+
+- Number
+
+- Boolean
+
+- Undefined
+
+- Null
+
+- Symbol
+
+- BigInt
+
+## 🧠 Non-Primitive (Reference) Data Types
+
+- Object
+
+- Array
+
+- Function
+  
+## Note:
+
+1. Primitive datatype are immutable(in immutable values, we cannot change the original value once it’s created).
+           
+           let name = "Ramit";
+           name[0] = "K";  // ❌ This won’t change the string
+           console.log(name); // Output: Ramit
+
+   
+2. Non-primitive datatype(an Object) are mutable.
+3. **Include** methods return boolean value(i.e true or false).
+                
+
+                const str = "javascript";
+                let vowels = "aeiou";
+                let count = 0;
+                
+                for(let i=0; i<str.length; i++){
+                    if(vowels.includes(str[i])){
+                        count++;
+                    }
+                }
+                console.log(count);
+
+
+4. If you declare a variable and you don't give any value to it, then it is gonna be undefined.
+   
+                let count;
+                console.log(count);
+                o/p: undefined
+
+                undefined + 1 => NaN
+
+5. JS is a client side programming language (UI).
+
+
+Q).If I have declared an array as a **const**, will I be able to make changes to that particular array? <br>
+ans: Yes!, bcz end of the day arrays are mutable. <br> const will be applied here i.e no new value will be assigned, but whatever within that particular arrays, you can still make changes to it. <br>
+
+> The rules of const is still applicable here, **const** says you cannot reassign a new value, but we can change in that particular arrays.<br>
+e.g: 
+
+             const players = ["sanu", "ramit"];
+             players[0] = "sinni";
+             //o/p: ["sinni", "ramit"]
+
