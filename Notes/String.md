@@ -173,3 +173,42 @@ e.g:
              players[0] = "sinni";
              //o/p: ["sinni", "ramit"]
 
+
+# for-of loop
+unlike for-loop, here we don't have to take care of **initialization , condition and operation** , all of this done internally here.
+
+- It always traverse through beginning to end.
+syntax:
+            
+            const str = "javascript";
+
+            //char is a variable name
+            for(let char of str){
+                console.log(char);
+            } //javascript
+
+
+- same above thing we do like this using for-loop:
+                 
+
+                const str = "javascript";
+             
+                for(let i=0; i<str.length; i++){
+                    console.log(str[i]);
+                }
+
+
+
+
+# truthy and falsy values:
+
+1. falsy value:
+        
+        - 0, '', null, NaN, undefined, false.
+
+2. truthy value: 
+        
+        - any thing which is not falsy is truthy
+  
+
+convert any value it to boolean, it either return true or false.
