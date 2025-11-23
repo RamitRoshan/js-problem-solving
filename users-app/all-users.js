@@ -1,5 +1,5 @@
 const axios = require('axios');
-const url = "https://jsonplaceholder.typicode.com/users";
+const url = "https://jsonplaceholder.typicode.com/users/100";
 
 /*
     1. using axios make a request to the server
@@ -13,18 +13,26 @@ const url = "https://jsonplaceholder.typicode.com/users";
 
 */
 
-axios.get(url)
-     .then((response) => {  //fullfiled
-        const users = response.data;
+axios.get(url)  //initial state
+    .then((response) => {  // fulfiled state
+        console.log(response.data)
+    })
+    .catch((err) => {   //rejected state
+        console.log(err.message)
+    })
 
-        //Total users (length of the array)
-        console.log("Total users: " , users.length);
+// axios.get(url)
+//      .then((response) => {  //fullfiled
+//         const users = response.data;
 
-        // loop over the array and print usernames
-        users.forEach((user) => {
-            console.log(user.username);
-        });  
-     })
-     .catch((err) => {
-        console.log(err.message);
-     })
+//         //Total users (length of the array)
+//         console.log("Total users: " , users.length);
+
+//         // loop over the array and print usernames
+//         users.forEach((user) => {
+//             console.log(user.username);
+//         });  
+//      })
+//      .catch((err) => {
+//         console.log(err.message);
+//      })
