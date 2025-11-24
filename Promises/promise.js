@@ -38,3 +38,40 @@ axios.post()
 
 - try & catch and then & catch both are same
  */
+
+
+
+
+
+// # Without delay
+//Promise producing code
+// Create a promise object - this return's number
+// via a constructor fn we create a promise object
+const myPromise = new Promise((resolve, reject) => {
+    console.log(typeof resolve, typeof reject); //both are fns
+    const number = 10;
+    if(number % 2 === 0){
+        //even
+        resolve();
+    } else{
+        //odd
+        reject();
+    }
+});
+
+
+
+// The fn, we are passing in .then() is resolve method
+// and the fn we are passing in catch() is reject
+ 
+// Promise consuming code....
+myPromise
+   .then(() => {
+    console.log('even number');
+   }) // If the number is even - fulfill(resolve) the  promise.
+    .catch(() => {
+        console.log('odd number');
+    }) // If the number is odd - reject the promise.
+
+
+// # With delay
