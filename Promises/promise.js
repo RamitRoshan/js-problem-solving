@@ -41,7 +41,7 @@ axios.post()
 
 
 
-
+// Q). Creating a promise object, either resolve it  or reject it. 👇
 
 // # Without delay
 //Promise producing code
@@ -73,5 +73,63 @@ myPromise
         console.log('odd number');
     }) // If the number is odd - reject the promise.
 
+  
 
-// # With delay
+
+//Q).  Sum function    
+// function sum(arr){
+//     return arr.reduce((acc, cv) => acc + cv);
+// }
+// console.log(sum([10, 20, 30]));   //o/p: 60  
+
+
+
+/* 
+Q) There is a match, if India won I have to call
+a happy function, & If India lose I have to call a
+Lost Functions.. 
+*/
+// function match(happy, sad) {
+//     let indiaWon = true;
+//     //if it is true..
+//     if(indiaWon){
+//         //function invoked
+//         happy();
+//     }else {
+//         sad();
+//     }
+// }
+// function happy() {
+//     console.log('YaY! we won');
+// }
+
+// function sad() {
+//     console.log('shit! we lost');
+// }
+// match(happy, sad);
+
+
+
+/*
+Q). create a promise object which determines the
+length of the password.
+If the password length is 8 characters and more then
+resolve the promise, else reject the promise.
+*/
+const passwordPromise = new Promise((resolve, reject) => {
+    //logic written
+    const password = "secret@123";
+    if(password.length >= 8){
+        resolve();  //fulfilled
+    }else {
+        reject();  //reject
+    }
+});
+
+passwordPromise
+    .then(() => {
+        console.log('promise resolved');
+    })
+    .catch(() => {
+        console.log('promise rejected');
+    })
