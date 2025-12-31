@@ -1,4 +1,4 @@
-//Int.Ques) Delete the methods from an objects
+//Int.Ques) Delete the methods/functions from an objects
 
 //Method -> function inside object
 const student = {
