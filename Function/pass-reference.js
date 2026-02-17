@@ -9,3 +9,7 @@ function addFruit(fruit1, newFruit){
 }
 addFruit(fruits, 'orange');
 console.log('outside the function after invocation', fruits); //[ 'mango', 'apple', 'orange' ]
+
+
+
+
