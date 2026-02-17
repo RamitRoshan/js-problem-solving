@@ -46,3 +46,23 @@ function mapLetters(str) {
 console.log(mapLetters("dodo"));
 console.log(mapLetters("froggy"));
 
+
+
+/**
+function mapLetters(str) {
+  let result = {};
+
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
+
+    if (result.hasOwnProperty(char)) {
+      result[char].push(i);    
+    } else {
+      result[char] = [i];      
+    }
+  }
+
+  return result;
+}
+ */
+
