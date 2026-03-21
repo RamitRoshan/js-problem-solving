@@ -22,4 +22,5 @@ const sendChatMessageWithSlowMode = throttle(sendChatMessage, 2 * 1000);
 sendChatMessageWithSlowMode("Hi"); 
 sendChatMessageWithSlowMode("Hlo"); 
 sendChatMessageWithSlowMode("Hlo ji"); 
+sendChatMessageWithSlowMode("Hlo ji ");
 sendChatMessageWithSlowMode("Where is our freelance client"); 
