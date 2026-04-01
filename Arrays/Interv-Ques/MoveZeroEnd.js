@@ -33,6 +33,11 @@ console.log(array);  // T.C = O(n) & S.C = O(1)
 
 
 
+
+
+
+
+
 //2nd approach
 // const arr = [0, 1, 0, 3, 12];
 // let j = 0;
