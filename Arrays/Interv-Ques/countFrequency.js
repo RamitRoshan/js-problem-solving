@@ -22,7 +22,7 @@ for (let i = 0; i < arr.length; i++) {
     freq[arr[i]] = 1;
   }
 }
-//freq object becomes: {1: 2, 2: 3, 3: 1, 4: 1}
+//freq object becomes: {1: 2, 2: 3, 3: 1, 4: 1}  -> O(n)
 
 //Loop through object keys, key = element (1,2,3,4) (using for in loop only in object)
 for (let key in freq) {
