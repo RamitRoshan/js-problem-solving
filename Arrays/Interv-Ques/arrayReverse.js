@@ -22,7 +22,6 @@ Output: [5, 4, 3, 2, 1]
 
 
 //3rd methods: In-place (no extra space)
-
 const arr = [1, 2, 3, 4, 5];
 
 let start = 0;
