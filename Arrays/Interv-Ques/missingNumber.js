@@ -15,7 +15,6 @@ let actualSum = 0;
 for(let i=0; i<arr.length; i++){
     actualSum = actualSum + arr[i];
 }
-
 //missing 
 let missing = expectedSum - actualSum;
 console.log(missing);
