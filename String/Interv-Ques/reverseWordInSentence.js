@@ -12,12 +12,17 @@ Output:
 
 const str = "hello world";
 
-let words = str.split(" ");
+let words = str.split(" "); 
+console.log(words); //[ 'hello', 'world' ]
+ 
 
-let result = "";
 
-for (let i = words.length - 1; i >= 0; i--) {
-    result = result + words[i];
+let result = ""; 
+
+for (let i = 0; i<words.length; i++) {
+    let reverseWord = words[i].split("").reverse().join(""); //olleh /n dlrow
+    result = result  +  reverseWord + " ";
 }
+console.log(result.trim()); //removing extra spaces.
 
-console.log(result);
+
