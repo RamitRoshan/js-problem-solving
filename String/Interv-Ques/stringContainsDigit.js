@@ -10,3 +10,5 @@ const str = "123e45";
 let result = /^[0-9]+$/.test(str);
 
 console.log(result);
+
+
