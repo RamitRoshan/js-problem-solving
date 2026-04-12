@@ -12,3 +12,5 @@ let result = /^[0-9]+$/.test(str);
 console.log(result);
 
 
+
+
