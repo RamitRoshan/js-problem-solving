@@ -29,11 +29,6 @@ if(str1.length !== str2.length){
     console.log(result);
 }
 
-// for(let i=0; i<str1.length; i++){
-    
-//     let last = str1[str1.length-1];
-//     str1 = last + str1.slice(0, s1.length - 1);
-// }
 
 
 
