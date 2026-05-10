@@ -10,7 +10,7 @@ let result;
 arr.sort((a, b) => a - b);
 console.log(arr);
 
-for (let i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length-1; i++) {
   if (arr[i] === arr[i + 1]) {
     result = arr[i];
   }
