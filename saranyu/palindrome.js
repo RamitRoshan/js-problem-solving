@@ -11,17 +11,16 @@ Output: Not Palindrome
 
 */
 
-
 const str = "hello";
 
 let reverseResult = "";
 
-for(let i=str.length; i>=0; i--){
-    reverseResult += str[i];
+for (let i = str.length - 1; i >= 0; i--) {
+  reverseResult += str[i];
 }
 
-if(str === reverseResult){
-    console.log("Palindrome");
-}else{
-    console.log("Non Palindrome");
+if (str === reverseResult) {
+  console.log("Palindrome");
+} else {
+  console.log("Non Palindrome");
 }
