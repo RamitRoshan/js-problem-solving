@@ -14,12 +14,29 @@ Output:
 
 */
 
-const n = 5;
+// const n = 5;
 
-for (let i = 1; i <= n; i++) {
-  let row = "";
-  for (let j = 1; j <= i; j++) {
-    row = row + "*";
-  }
-  console.log(row);
+// for (let i = 1; i <= n; i++) {
+//   let row = "";
+//   for (let j = 1; j <= i; j++) {
+//     row = row + "*";
+//   }
+//   console.log(row);
+// }
+
+
+/*
+*****
+****
+***
+**
+*
+*/
+const n1 = 5;
+for(let i = n1; i>=1; i--){
+    let row1 = "";
+    for(let j=1; j<=i; j++){
+        row1 = row1 + "*";
+    } 
+    console.log(row1);
 }
