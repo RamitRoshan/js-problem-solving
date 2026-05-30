@@ -6,3 +6,8 @@ Input: "abc"
 
 Output: "bcd"
 */
+
+const str = "abc";
+
+//
+//
